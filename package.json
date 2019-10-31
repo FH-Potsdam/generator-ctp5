@@ -1,6 +1,6 @@
 {
   "name": "@fh-potsdam/generator-ctp5",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "p5js generator for yo",
   "main": "app/index.js",
   "scripts": {
