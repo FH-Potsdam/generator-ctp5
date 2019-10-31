@@ -1,0 +1,30 @@
+{
+  "name": "<%= name %>",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Starter kit for the seminar \"Creative Technologists - Tracing the City\" @ University of Applied Sciences Potsdam (Germany) by Fabian Morón Zirfas",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo \"running on http://localhost:3000\" && reload --browser --port 3000"
+  },
+  "keywords": [
+    "p5js, p5"
+  ],
+  "author": "Fabian Morón Zirfas",
+  "contributors": [],
+  "license": "MIT",
+  "devDependencies": {
+    "reload": "^3.0.1"
+  },
+  "dependencies": {
+    "p5": "^0.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FH-Potsdam/dma.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FH-Potsdam/dma/issues"
+  },
+  "homepage": "https://github.com/FH-Potsdam/dma#readme"
+}
