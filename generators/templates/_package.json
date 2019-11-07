@@ -5,7 +5,12 @@
   "description": "Starter kit for the seminar \"Creative Technologists - Tracing the City\" @ University of Applied Sciences Potsdam (Germany) by Fabian Morón Zirfas",
   "main": "index.html",
   "scripts": {
-    "start": "echo \"running on http://localhost:3000\" && reload --browser --port 3000"
+    "start": "echo \"running on http://localhost:3000\" && reload --browser --port 3000",
+    "http-server": "http-server",
+    "prettier": "prettier \"**/*.+(js|json|yml|yaml|ts)\"",
+    "prettier:list": "npm run prettier -- --list-different",
+    "prettier:write": "npm run prettier -- --write",
+    "lint": "eslint './**/*.js'"
   },
   "keywords": [
     "p5js, p5"
@@ -14,6 +19,11 @@
   "contributors": [],
   "license": "MIT",
   "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-config-prettier": "^6.5.0",
+    "prettier": "^1.18.2",
+    "http-server": "^0.11.1",
     "reload": "^3.0.1"
   },
   "dependencies": {
