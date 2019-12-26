@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Vanilla.js</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+      /* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        height: calc(var(--vh, 1vh) * 100);
+        width: 100vw;
+        background-color: lightgray;
+        margin: 0;
+        padding: 0;
+      }
+      canvas{
+        width:200px;
+        height:200px;
+      }
+    </style>
+</head>
+<body>
+    <canvas id="sketch"></canvas>
+  </div>
+  <script src="index.js"></script>
+  <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        // First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+        let vh = window.innerHeight * 0.01;
+        // Then we set the value in the --vh custom property to the root of the document
+        document.documentElement.style.setProperty("--vh", `${vh}px`);
+      });
+    </script>
+</body>
+</html>

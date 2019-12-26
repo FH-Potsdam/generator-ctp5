@@ -14,5 +14,6 @@
     "statusBarItem.hoverBackground": "#c6c848",
     "statusBar.foreground": "#15202b"
   },
-  "peacock.color": "#d2d46f"
+  "peacock.color": "#d2d46f",
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
